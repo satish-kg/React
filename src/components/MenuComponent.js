@@ -49,7 +49,8 @@ class Menu extends Component{
                     { menu }
                 </div>
 
-                <DishDetail dish={this.state.selectedDish} />
+                <Card key={dish.id}
+                        onClick={() => this.props.onClick(dish.id)}/>
                 
 
             </div>
