@@ -68,7 +68,7 @@ class DishDetail extends Component{
     }
 
 
-    render(){
+    /*render(){
         const dish = this.props.dish
 
         console.log(dish);
@@ -86,7 +86,7 @@ class DishDetail extends Component{
                 {dishComment}
             </div>
         )
-    }
+    }*/
 
 }
 
